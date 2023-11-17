@@ -1,0 +1,298 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: yellowgreen;
+}
+.container{
+    background-color: white;
+    margin:30px 10px;
+    padding:30px 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container h1{
+    color:green;
+    text-transform: capitalize;
+    word-spacing: 20px;
+}
+.container h1,nav{
+    text-align: center;
+}
+.container nav{
+    position:relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    border-radius: 10px;
+    background: yellowgreen;
+    margin-top: 20px;
+}
+.container nav label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid white;
+    height: 60px;
+    line-height: 20px;
+    cursor: pointer;
+    color: white;
+    padding: 0px 10px;
+    position: relative;
+    z-index: 1;
+}
+.container nav .slider{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 100%;
+    width:7%;
+    background: green;
+    z-index: 0;
+    transition: all ease 0.3s;    
+}
+
+
+
+/* input & slider */
+input[type="radio"]{
+    display: none;
+}
+#two:checked ~ nav .slider{
+    left:80px;
+    background: green;
+}
+#three:checked ~ nav .slider{
+    left:160px;
+    background: green;
+}
+#grid:checked ~ nav .slider{
+    left:238px;
+    background: green;
+}
+#card:checked ~ nav .slider{
+    left:315px;
+    background: green;
+}
+#full:checked ~ nav .slider{
+    left:395px;
+    background: green;
+}
+#tabs:checked ~ nav .slider{
+    left:473px;
+    background: green;
+}
+#float:checked ~ nav .slider{
+    left:552px;
+    background: green;
+}
+#stack:checked ~ nav .slider{
+    left:630px;
+    background: green;
+}
+#masonry:checked ~ nav .slider{
+    left:710px;
+    background: green;
+}
+#overlay:checked ~ nav .slider{
+    left:790px;
+    background: green;
+}
+#fixed:checked ~ nav .slider{
+    left:869px;
+    background: green;
+}
+#split:checked ~ nav .slider{
+    left:948px;
+    background: green;
+}
+#center:checked ~ nav .slider{
+    left:1025px;
+    background: green;
+}
+
+
+
+
+/* tab content */
+section .content{
+    display: none;
+}
+#single:checked ~ section .content-single{
+    display: block;
+}
+#two:checked ~ section .content-two{
+    display: block;
+}
+#three:checked ~ section .content-three{
+    display: block;
+}
+#grid:checked ~ section .content-grid{
+    display: block;
+}
+#card:checked ~ section .content-card{
+    display: block;
+}
+#full:checked ~ section .content-full{
+    display: block;
+}
+#tabs:checked ~ section .content-tabs{
+    display: block;
+}
+#float:checked ~ section .content-float{
+    display: block;
+}
+#stack:checked ~ section .content-stack{
+    display: block;
+}
+#masonry:checked ~ section .content-masonry{
+    display: block;
+}
+#overlay:checked ~ section .content-overlay{
+    display: block;
+}
+#fixed:checked ~ section .content-fixed{
+    display: block;
+}
+#split:checked ~ section .content-split{
+    display: block;
+}
+#center:checked ~ section .content-center{
+    display: block;
+}
+
+
+
+
+/* Single column layout */
+.content-single{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    color:palevioletred;
+    padding: 10px 50px;
+}
+.title{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color:brown;
+}
+.content-single img{
+    padding-left: 50px;
+}
+
+
+
+
+/* Double column layout */
+.content-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    color:orange;
+}
+.content-two .title{
+    color: orangered;
+}
+
+
+
+
+/* Three column layout */
+.content-three{
+    padding-top: 30px;
+}
+.content-three .title{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    color:brown;
+}
+
+
+
+/* grid layout */
+.content-grid table{
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  .content-grid table tr td{
+    border: 1px solid black;
+    width:200px;
+    height: 100px;
+    text-align: center;
+  }
+
+
+
+
+/* card layout */
+.content .card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.content .card-container .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:200px;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin:10px 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.content .card-container .card button{
+    width:150px;
+    padding:8px;
+    color:white;
+    border: none;
+    cursor: pointer;
+    background-color: yellowgreen;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.content .card-container .card p{
+    padding: 10px 0px;
+}
+
+
+
+
+/* full screen layout */
+.google-site{
+    position: relative;
+    border: 1px solid grey;
+    padding: 100px 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.google-input input{
+    margin: 20px 0px;
+    padding: 10px 100px;
+    /* border-radius: 10px; */
+    outline: none;
+}
+.gmail{
+    position: absolute;
+    top:0px;
+    right:0px;
+    padding: 40px;
+}
+
+
+/* overlay layout */
