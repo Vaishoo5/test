@@ -1,0 +1,28 @@
+D:\CODE\6. C# calc\Console Calculator\Console Calculator\bin\Debug\net6.0\Console Calculator.exe
+D:\CODE\6. C# calc\Console Calculator\Console Calculator\bin\Debug\net6.0\Console Calculator.deps.json
+D:\CODE\6. C# calc\Console Calculator\Console Calculator\bin\Debug\net6.0\Console Calculator.runtimeconfig.json
+D:\CODE\6. C# calc\Console Calculator\Console Calculator\bin\Debug\net6.0\Console Calculator.dll
+D:\CODE\6. C# calc\Console Calculator\Console Calculator\bin\Debug\net6.0\Console Calculator.pdb
+D:\CODE\6. C# calc\Console Calculator\Console Calculator\obj\Debug\net6.0\Console Calculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\CODE\6. C# calc\Console Calculator\Console Calculator\obj\Debug\net6.0\Console Calculator.AssemblyInfoInputs.cache
+D:\CODE\6. C# calc\Console Calculator\Console Calculator\obj\Debug\net6.0\Console Calculator.AssemblyInfo.cs
+D:\CODE\6. C# calc\Console Calculator\Console Calculator\obj\Debug\net6.0\Console Calculator.csproj.CoreCompileInputs.cache
+D:\CODE\6. C# calc\Console Calculator\Console Calculator\obj\Debug\net6.0\Console Calculator.dll
+D:\CODE\6. C# calc\Console Calculator\Console Calculator\obj\Debug\net6.0\refint\Console Calculator.dll
+D:\CODE\6. C# calc\Console Calculator\Console Calculator\obj\Debug\net6.0\Console Calculator.pdb
+D:\CODE\6. C# calc\Console Calculator\Console Calculator\obj\Debug\net6.0\Console Calculator.genruntimeconfig.cache
+D:\CODE\6. C# calc\Console Calculator\Console Calculator\obj\Debug\net6.0\ref\Console Calculator.dll
+D:\TRAINING - CODE\6. C# calc\Console Calculator\Console Calculator\bin\Debug\net6.0\Console Calculator.exe
+D:\TRAINING - CODE\6. C# calc\Console Calculator\Console Calculator\bin\Debug\net6.0\Console Calculator.deps.json
+D:\TRAINING - CODE\6. C# calc\Console Calculator\Console Calculator\bin\Debug\net6.0\Console Calculator.runtimeconfig.json
+D:\TRAINING - CODE\6. C# calc\Console Calculator\Console Calculator\bin\Debug\net6.0\Console Calculator.dll
+D:\TRAINING - CODE\6. C# calc\Console Calculator\Console Calculator\bin\Debug\net6.0\Console Calculator.pdb
+D:\TRAINING - CODE\6. C# calc\Console Calculator\Console Calculator\obj\Debug\net6.0\Console Calculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\TRAINING - CODE\6. C# calc\Console Calculator\Console Calculator\obj\Debug\net6.0\Console Calculator.AssemblyInfoInputs.cache
+D:\TRAINING - CODE\6. C# calc\Console Calculator\Console Calculator\obj\Debug\net6.0\Console Calculator.AssemblyInfo.cs
+D:\TRAINING - CODE\6. C# calc\Console Calculator\Console Calculator\obj\Debug\net6.0\Console Calculator.csproj.CoreCompileInputs.cache
+D:\TRAINING - CODE\6. C# calc\Console Calculator\Console Calculator\obj\Debug\net6.0\Console Calculator.dll
+D:\TRAINING - CODE\6. C# calc\Console Calculator\Console Calculator\obj\Debug\net6.0\refint\Console Calculator.dll
+D:\TRAINING - CODE\6. C# calc\Console Calculator\Console Calculator\obj\Debug\net6.0\Console Calculator.pdb
+D:\TRAINING - CODE\6. C# calc\Console Calculator\Console Calculator\obj\Debug\net6.0\Console Calculator.genruntimeconfig.cache
+D:\TRAINING - CODE\6. C# calc\Console Calculator\Console Calculator\obj\Debug\net6.0\ref\Console Calculator.dll
